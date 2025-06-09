@@ -12,3 +12,5 @@ crete react app taakes time and is crowded.
 script run through react and react dom gives methods and create virtual dom.
 spa as just one html page with one div root usime inject kr rhe h hta rhe h.
   **own react** (object of element and own render likho in react render expects an element so cant pass this object can even execute fn but dont do react.createlement can use and for js variables use {} in fn and in createelement write at last it can only be an evaluated expression as at the end it will be an object which can hv if and loops and then parsed to tree.  at bts babble injects the create element can also be done with jsx.)
+
+  variable change hone se ui nhi change hoga wo react decide krega use hooks.
