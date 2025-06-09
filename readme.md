@@ -14,3 +14,8 @@ spa as just one html page with one div root usime inject kr rhe h hta rhe h.
   **own react** (object of element and own render likho in react render expects an element so cant pass this object can even execute fn but dont do react.createlement can use and for js variables use {} in fn and in createelement write at last it can only be an evaluated expression as at the end it will be an object which can hv if and loops and then parsed to tree.  at bts babble injects the create element can also be done with jsx.)
 
   variable change hone se ui nhi change hoga wo react decide krega use hooks.
+  react dont watch normal variables they are in js memory and reset at each render but using setstate var are stored in hook memory outside our component fn the state is like memory of ui when it changes using setstate this tells react to create vdom and rerender.
+  setstate is asynchronous as it waits for event handler to finish, it batches all the state changes to inc.performance and then create vdom for ess. changes and triggers rendering.
+  react is declarative.
+  react fibre is the engine.
+  *features* :"(1)incremental rendering i.e split in chunks and spread over frames prevent freezing in big tasks.(2)hydration(show button add js later.), pause, reuse work, assogn priority, abort update."
