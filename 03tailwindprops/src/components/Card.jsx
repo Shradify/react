@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({name = 'bomon', somearr =[]}) {
+function Card({name = 'bomon', somearr =[]}) { 
     console.log(name);
     
   return (
