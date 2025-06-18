@@ -21,3 +21,5 @@ spa as just one html page with one div root usime inject kr rhe h hta rhe h.
   *features* :"(1)incremental rendering i.e split in chunks and spread over frames prevent freezing in big tasks.(2)hydration(show button add js later.), pause, reuse work, assogn priority, abort update."
 
   props are object arguments, arg me hi deconstruct kr lo use same jsx bar bar with diff props use them in {}, arg me give default value.
+
+  useEffect jb bhi koi component mount or unmount hota h uska lifecyle trigger hota h tb use . to trigger a fn at page reload.
