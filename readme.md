@@ -23,3 +23,13 @@ spa as just one html page with one div root usime inject kr rhe h hta rhe h.
   props are object arguments, arg me hi deconstruct kr lo use same jsx bar bar with diff props use them in {}, arg me give default value.
 
   useEffect jb bhi koi component mount or unmount hota h uska lifecyle trigger hota h tb use . to trigger a fn at page reload.
+
+  **react router**
+  use link instead of a tag as a tag refreshes the page but react me to reload ka concept hi ni h.
+  link me href ki place pe use to
+
+  navlink kind of connects with url so u can use isActive in classname. isactive is a parameter in classname scope callback write classes in `` and isactive as a parameter with ${ ? "text-colour" : " "} even as argument write in {}. 
+
+  not use useEffect to fetch api on mount of a component when routing it gives lot of lag instead use loader jiske lie ek async fn res.json() wala promise return krega ans then use hook to get info from loader and render it now no lag as ye hover ke time pe hi fetch kr leta h and cache me bhi store rkhta h.
+
+  useparams in cmponent to get the parameters in url to be used in code and rendered use same parameter name in curly braces in component.
