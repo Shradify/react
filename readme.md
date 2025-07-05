@@ -33,3 +33,9 @@ spa as just one html page with one div root usime inject kr rhe h hta rhe h.
   not use useEffect to fetch api on mount of a component when routing it gives lot of lag instead use loader jiske lie ek async fn res.json() wala promise return krega ans then use hook to get info from loader and render it now no lag as ye hover ke time pe hi fetch kr leta h and cache me bhi store rkhta h.
 
   useparams in cmponent to get the parameters in url to be used in code and rendered use same parameter name in curly braces in component.
+
+**context API**
+first create context and wrap all the elements with this context in app.jsx.
+then make usercontextprovider where declare the var and steVar pass as object in value attribute of.provider aplly it on children that  is on any element that comes as an argument.
+then use it with usecontextt hook using the provided values in {} set it in any componentt use it anywhere else.
+use "" in state as indicating no value use if conditions to return <div> when you hv values in user and when you dont.
