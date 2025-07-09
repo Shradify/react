@@ -35,7 +35,12 @@ spa as just one html page with one div root usime inject kr rhe h hta rhe h.
   useparams in cmponent to get the parameters in url to be used in code and rendered use same parameter name in curly braces in component.
 
 **context API**
-first create context and wrap all the elements with this context in app.jsx.
+first create context this is .js file and wrap all the elements with this context in app.jsx.
+
 then make usercontextprovider where declare the var and steVar pass as object in value attribute of.provider aplly it on children that  is on any element that comes as an argument.
+
 then use it with usecontextt hook using the provided values in {} set it in any componentt use it anywhere else.
-use "" in state as indicating no value use if conditions to return <div> when you hv values in user and when you dont.
+
+use "" in state as indicating no value
+
+use if conditions to return <div> when you hv values in user and when you dont.
