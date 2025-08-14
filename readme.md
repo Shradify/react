@@ -44,3 +44,17 @@ then use it with usecontextt hook using the provided values in {} set it in any 
 use "" in state as indicating no value
 
 use if conditions to return <div> when you hv values in user and when you dont.
+
+
+**MegaBlog**
+container component is just styling on its children so in sbki css ek sath change ho jaegi.
+
+in header or anywhere use navlink create navitem array to render all components and aplly condition to render o rnot based on login.
+
+key repeating html  pe lgti h.
+
+use empty array and empty strings in props.
+
+loop optionally ,items ho to hi loop kre options pe else crash hoga.
+
+link me pura url nhi dena pdta h jha pe h wha se age ja skte h

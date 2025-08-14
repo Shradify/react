@@ -40,8 +40,9 @@ export class AuthService{
             return await this.account.get();
         } catch (error) {
             console.log("Appwrite service :: getCurrentUser :: error", error);
+            return null;
         }
-        return null; //if mila hi ni account to null ya kux or dedega so return null (if else can also use)
+         //if mila hi ni account to null ya kux or dedega so return null (if else can also use)
     }
 
     async logOut(){
