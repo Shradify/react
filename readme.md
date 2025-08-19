@@ -58,3 +58,15 @@ use empty array and empty strings in props.
 loop optionally ,items ho to hi loop kre options pe else crash hoga.
 
 link me pura url nhi dena pdta h jha pe h wha se age ja skte h
+
+
+**watch and getValue**
+watch is for live activity auto re render
+getValue fetches once per render react wont know to render unless explicitly told so no live change
+
+**setValue** sets the value in from with under the name
+**name** name of field if u hv multiple inputs take data by data.name
+can use registers and controllers in same form they all give one object data and form pass same control to all.
+
+**useEffect** use when want to do something when dependency changes runs side effects after a render like for api call local storage.
+**useCallback** use when stable fn called in a child component to prevent unnecessary re-renders of child it memoizes the fn and only updates when dependency changes(like save is same fn untl the value in form was changed).

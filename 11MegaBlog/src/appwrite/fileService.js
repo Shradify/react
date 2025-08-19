@@ -14,11 +14,11 @@ export class FileService {
 
     async UploadFile({files}){
         try {
-           return await this.Bucket.createFile(
-            conf.appwriteBucketId,
-            ID.unique(), //used for featuredImage
-            files,
-           ) 
+            return await this.Bucket.createFile(
+                conf.appwriteBucketId,
+                ID.unique(), //used for featuredImage
+                files,
+            ) 
         } catch (error) {
             console.log("createFile :: error",error)
             return false
@@ -27,7 +27,7 @@ export class FileService {
 
     async deleteFile(fileID){
         try {
-            await rhis.Bucket.deleteFile(
+            await this.Bucket.deleteFile(
                 conf.appwriteBucketId,
                 fileID,
             )

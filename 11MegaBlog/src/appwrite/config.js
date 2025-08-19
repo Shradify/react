@@ -81,9 +81,8 @@ export class Service{
             return await this.databases.listDocuments(
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
-                slug, //documentId
                 queries, //ya to yhi likh dete
-                Query.limit(3), //pagination    
+                Query.limit(4), //pagination    
             )
         } catch (error) {
             console.log("listPost :: error", error);
